@@ -1,0 +1,57 @@
+.centeralign{
+	text-align: center;
+	color:white;
+  text-size:28px;
+  margin-bottom: 20px;
+}
+.menu{
+	float:right;
+	color:#FF9900;
+}
+.menu ul,li{
+  text-decoration: none;
+}
+.formalign2{
+	margin: 0px auto;
+	width: 500px;
+}
+
+.formalign2 select , .formalign2 input , .formalign2 textarea{
+				display: block;
+				width:100%;
+				border :1 px solid white;
+				color:inherit;
+				margin:7px 0 15px;
+				background-color: #442D48;
+				padding: 0 5px;
+				font-family: inherit;
+				font-size: 19px;
+}
+.formalign2 textarea{
+	resize:none;
+}
+.formalign2 input {
+	size: 40px;
+}
+.formalignh1{
+	text-align: center;
+	width:500px;
+	margin: 0 auto;
+}
+.nodeco{
+	text-decoration: none;
+}
+.logo{
+	width:100px;
+	height:20px;
+}
+.sociallogo{
+	width:20px;
+	height:20px;
+}
+.sbutton{
+
+}
+#fid1{
+	float: right;
+}
