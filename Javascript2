@@ -1,0 +1,130 @@
+var aruvi={"moviename":"Aruvi","rating":4,"language":"Tamil","year":2017}
+undefined
+var movie_array[aruvi]
+VM45:1 Uncaught SyntaxError: Unexpected token [
+var movie_array=[aruvi]
+undefined
+movie_array
+[{…}]0: {moviename: "Aruvi", rating: 4, language: "Tamil", year: 2017}length: 1__proto__: Array(0)
+var movie_obj={"moviename":"Aruvi","rating":4,"language":"Tamil","year":2017},{"moviename":"Bahubali2","rating":5,"language":"Tamil","year":2017},{"moviename":"ROBO2","rating":4.5,"language":"Tamil","year":2018},{"moviename":"Vivegam","rating":4,"language":"Tamil","year":2017},{"moviename":"Aruvi","rating":4,"language":"Tamil","year":2017},{"moviename":"Bajrangibhaijaan","rating":4,"language":"Hindi","year":2015},{"moviename":"Jabharrymetsejal","rating":4,"language":"Hindi","year":2017}.{"moviename":"Tubeligh","rating":4.5,"language":"Hindi","year":2017},{"moviename":"Tigerzindahai","rating":4,"language":"Hindi","year":2017},{"moviename":"Logan","rating":4,"language":"English","year":2017},{"moviename":"BeforeIfall","rating":5,"language":"English","year":2017},{"moviename":"Thelastword","rating":4,"language":"English","year":2017},
+VM69:1 Uncaught SyntaxError: Unexpected string
+var movie_obj={"moviename":"Aruvi","rating":4,"language":"Tamil","year":2017},{"moviename":"Bahubali2","rating":5,"language":"Tamil","year":2017},{"moviename":"Robo2","rating":4.5,"language":"Tamil","year":2018},{"moviename":"Mersal","rating":4,"language":"Tamil","year":2017},{"moviename":"Vivegam","rating":4,"language":"Tamil","year":2017},{"moviename":"Bajrangibhaijaan","rating":4,"language":"Hindi","year":2015},{"moviename":"Jabharrymetsejal","rating":4,"language":"Hindi","year":2017}.{"moviename":"Tubelight","rating":4.5,"language":"Hindi","year":2017},{"moviename":"Tigerzindahai","rating":4,"language":"Hindi","year":2017},{"moviename":"Logan","rating":4,"language":"English","year":2017},{"moviename":"BeforeIfall","rating":5,"language":"English","year":2017},{"moviename":"Thelastword","rating":4,"language":"English","year":2017},{"moviename":"Myscientologymovie","rating":4.5,"language":"English","year":2015},{"moviename":"Donaldcried","rating":4,"language":"English","year":2016}
+VM73:1 Uncaught SyntaxError: Unexpected string
+var movie_obj={"moviename":"Aruvi","rating":4,"language":"Tamil","year":2017},{"moviename":"Bahubali2","rating":5,"language":"Tamil","year":2017},{"moviename":"Robo2","rating":4.5,"language":"Tamil","year":2018},{"moviename":"Mersal","rating":4,"language":"Tamil","year":2017},{"moviename":"Vivegam","rating":4,"language":"Tamil","year":2017},{"moviename":"Bajrangibhaijaan","rating":4,"language":"Hindi","year":2015},{"moviename":"Jabharrymetsejal","rating":4,"language":"Hindi","year":2017},{"moviename":"Tubelight","rating":4.5,"language":"Hindi","year":2017},{"moviename":"Tigerzindahai","rating":4,"language":"Hindi","year":2017},{"moviename":"Logan","rating":4,"language":"English","year":2017},{"moviename":"BeforeIfall","rating":5,"language":"English","year":2017},{"moviename":"Thelastword","rating":4,"language":"English","year":2017},{"moviename":"Myscientologymovie","rating":4.5,"language":"English","year":2015},{"moviename":"Donaldcried","rating":4,"language":"English","year":2016}
+VM76:1 Uncaught SyntaxError: Unexpected string
+var movie_obj=[{"moviename":"Aruvi","rating":4,"language":"Tamil","year":2017},{"moviename":"Bahubali2","rating":5,"language":"Tamil","year":2017},{"moviename":"Robo2","rating":4.5,"language":"Tamil","year":2018},{"moviename":"Mersal","rating":4,"language":"Tamil","year":2017},{"moviename":"Vivegam","rating":4,"language":"Tamil","year":2017},{"moviename":"Bajrangibhaijaan","rating":4,"language":"Hindi","year":2015},{"moviename":"Jabharrymetsejal","rating":4,"language":"Hindi","year":2017},{"moviename":"Tubelight","rating":4.5,"language":"Hindi","year":2017},{"moviename":"Tigerzindahai","rating":4,"language":"Hindi","year":2017},{"moviename":"Logan","rating":4,"language":"English","year":2017},{"moviename":"BeforeIfall","rating":5,"language":"English","year":2017},{"moviename":"Thelastword","rating":4,"language":"English","year":2017},{"moviename":"Myscientologymovie","rating":4.5,"language":"English","year":2015},{"moviename":"Donaldcried","rating":4,"language":"English","year":2016}]
+undefined
+movie_obj
+(14) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]0: {moviename: "Aruvi", rating: 4, language: "Tamil", year: 2017}1: {moviename: "Bahubali2", rating: 5, language: "Tamil", year: 2017}2: {moviename: "Robo2", rating: 4.5, language: "Tamil", year: 2018}3: {moviename: "Mersal", rating: 4, language: "Tamil", year: 2017}4: {moviename: "Vivegam", rating: 4, language: "Tamil", year: 2017}5: {moviename: "Bajrangibhaijaan", rating: 4, language: "Hindi", year: 2015}6: {moviename: "Jabharrymetsejal", rating: 4, language: "Hindi", year: 2017}7: {moviename: "Tubelight", rating: 4.5, language: "Hindi", year: 2017}8: {moviename: "Tigerzindahai", rating: 4, language: "Hindi", year: 2017}9: {moviename: "Logan", rating: 4, language: "English", year: 2017}10: {moviename: "BeforeIfall", rating: 5, language: "English", year: 2017}11: {moviename: "Thelastword", rating: 4, language: "English", year: 2017}12: language: "English"moviename: "Myscientologymovie"rating: 4.5year: 2015__proto__: Object13: {moviename: "Donaldcried", rating: 4, language: "English", year: 2016}length: 14__proto__: Array(0)
+var m_obj={"movielist":movie_obj}
+undefined
+m_obj
+{movielist: Array(14)}
+m_obj.moviename="Aruvi"
+"Aruvi"
+m_obj.indexOf{"moviename"="Aruvi"}
+VM225:1 Uncaught SyntaxError: Unexpected token {
+m_obj.indexOf("moviename"="Aruvi")
+VM226:1 Uncaught ReferenceError: Invalid left-hand side in assignment
+m_obj.indexOf("Aruvi")
+VM227:1 Uncaught TypeError: m_obj.indexOf is not a function
+    at <anonymous>:1:7
+(anonymous) @ VM227:1
+m_obj.indexOf("moviename")
+VM228:1 Uncaught TypeError: m_obj.indexOf is not a function
+    at <anonymous>:1:7
+(anonymous) @ VM228:1
+m_obj.indexOf[0].moviename
+VM245:1 Uncaught TypeError: Cannot read property '0' of undefined
+    at <anonymous>:1:14
+(anonymous) @ VM245:1
+m_obj.indexOf[0].moviename
+VM247:1 Uncaught TypeError: Cannot read property '0' of undefined
+    at <anonymous>:1:14
+(anonymous) @ VM247:1
+m_obj.indexOf[1].moviename
+VM250:1 Uncaught TypeError: Cannot read property '1' of undefined
+    at <anonymous>:1:14
+(anonymous) @ VM250:1
+m_obj.movie_obj[1].moviename
+VM283:1 Uncaught TypeError: Cannot read property '1' of undefined
+    at <anonymous>:1:16
+(anonymous) @ VM283:1
+m_obj.movie_obj[0].moviename
+VM286:1 Uncaught TypeError: Cannot read property '0' of undefined
+    at <anonymous>:1:16
+(anonymous) @ VM286:1
+m_obj.movielist[0].moviename
+"Aruvi"
+for (year in m_obj){
+    console.log(year)}
+VM421:2 movielist
+VM421:2 moviename
+undefined
+for(i=0;i<m_obj.moviellist.length;i++){
+
+VM475:1 Uncaught SyntaxError: Unexpected end of input
+for(i=0;i<m_obj.moviellist.length;i++)
+{
+ console.log(m_obj.movielist.year)
+}
+VM542:1 Uncaught TypeError: Cannot read property 'length' of undefined
+    at <anonymous>:1:28
+(anonymous) @ VM542:1
+for(i=0;i<m_obj.movielist.length;i++)
+{
+ console.log(m_obj.movielist.year)
+}
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+VM545:3 undefined
+undefined
+for(i=0;i<m_obj.movielist.length;i++)
+{
+ console.log(m_obj.movielist[i].year)
+}
+VM555:3 2017
+VM555:3 2017
+VM555:3 2018
+VM555:3 2017
+VM555:3 2017
+VM555:3 2015
+VM555:3 2017
+VM555:3 2017
+VM555:3 2017
+VM555:3 2017
+VM555:3 2017
+VM555:3 2017
+VM555:3 2015
+VM555:3 2016
+undefined
+for(i=0;i<m_obj.movielist.length;i++)
+{
+ console.log(m_obj.movielist[i].year)
+}
+VM557:3 2017
+VM557:3 2017
+VM557:3 2018
+VM557:3 2017
+VM557:3 2017
+VM557:3 2015
+VM557:3 2017
+VM557:3 2017
+VM557:3 2017
+VM557:3 2017
+VM557:3 2017
+VM557:3 2017
+VM557:3 2015
+VM557:3 2016
+undefined
